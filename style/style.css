@@ -1,0 +1,96 @@
+/* nav style  */
+
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.work-sans-normal {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav .title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 51px;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: 700;
+    color: #fff;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #FFF8F3;
+    border: #FD6E0A solid 1px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #FD6E0A;
+    padding: 18px 35px;
+}
+
+/* bannar style  */
+.bannar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 235px;
+}
+
+.bannar-contain {
+    max-width: 585px;
+}
+
+.title-name {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.bannar-description {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bannar-profile {
+    width: 584px;
+    height: 676px;
+}
